@@ -1,0 +1,83 @@
+@import 'type';
+@import 'bootstrap';
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+	margin-top: 1em;
+}
+
+.main-logo {
+	position: relative;
+	width: 100px;
+	margin: auto;
+	padding-bottom: 0.5em;
+
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top:0;
+		width: 100%;
+		height: 1em;
+		background-image: url(data:image/png;base64,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);
+		background-size: 115%;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+		-moz-animation-name: dealWithIt;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: ease-in;
+		-moz-animation-duration: 1s;
+		-moz-animation-fill-mode: forwards;
+
+		-webkit-animation-name: dealWithIt;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: ease-in;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: forwards;
+
+		animation-name: dealWithIt;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-in;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+}
+
+.hash-tag {
+	margin: 0 0.5em;
+}
+
+@-moz-keyframes dealWithIt {
+    0%   { -moz-transform: translateY(-40px); }
+    100% { -moz-transform: translateY(20px); }
+}
+@-webkit-keyframes dealWithIt {
+    0%   { -webkit-transform: translateY(-40px); }
+    100% { -webkit-transform: translateY(20px); }
+}
+@keyframes dealWithIt {
+    0%   { transform: translateY(-40px); }
+    100% { transform: translateY(20px); }
+}
+
+.tag-container, .card {
+	overflow: hidden;
+	position: relative;
+}
+
+.card-img-fake {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgb(119, 119, 119);
+	height: 200px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}

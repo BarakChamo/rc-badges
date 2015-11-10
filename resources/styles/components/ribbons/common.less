@@ -1,0 +1,74 @@
+@import '../common';
+
+.rc-ribbon() {
+	// common rc-tag mixin
+	.rc-tag;
+  
+	// Layout
+	display: block;
+  overflow: hidden;
+  white-space: nowrap;
+	margin: 1px 0;
+	text-decoration: none;
+	padding: 0.5em 3em;
+
+	// Position
+	position: absolute;
+
+	// Shadow
+	box-shadow:  0 0 1em #888;
+  text-shadow: 0 0 1px #444;
+
+  & > a {
+  	font-size: 0.85em;
+  	color: inherit;
+
+  	&:visited, &:active, &:hover, &:focus {
+  		color: inherit;
+  	}
+
+		& > i.icon-svg {
+			svg {
+				height: 1em;
+				margin-right: 0.5em;
+			}
+		}
+
+		& > span {
+			text-align: center;
+			text-decoration: none;
+		}
+  }
+}
+
+// 
+// Rotation modifiers
+// 
+
+.rc-ribbon-tilt-left() {
+	transform: rotate(-45deg);
+}
+
+.rc-ribbon-tilt-right() {
+	transform: rotate(45deg);
+}
+
+// 
+// Position modifiers
+// 
+
+.rc-ribbon-top() {
+	top: 3.75em;
+}
+
+.rc-ribbon-bottom() {
+	bottom: 3.75em;
+}
+
+.rc-ribbon-left() {
+	left: -4em;
+}
+
+.rc-ribbon-right() {
+	right: -4em;
+}
