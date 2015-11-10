@@ -1,0 +1,54 @@
+@import '../common';
+
+.rc-badge() {
+	// common rc-tag mixin
+	.rc-tag;
+  
+	// Layout
+	display: inline-block;
+	position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+	margin: 1px 0;
+	padding: 0.5em 0.75em;
+	border-radius: 0.25em;
+	text-decoration: none;
+
+  & > a {
+  	font-size: 0.85em;
+  	color: inherit;
+
+  	&:visited, &:active, &:hover, &:focus {
+  		color: inherit;
+  	}
+
+		& > i.icon-svg {
+			svg {
+				height: 1.5em;
+				margin-bottom: -0.3em;
+				margin-right: 0.5em;
+			}
+		}
+
+		& > .block-icon {
+			& > i.icon-svg svg {
+				height: 3em;
+				display: block;
+				margin-right: 0.5em;
+				margin-right: 8em;
+				float: left;
+			}
+
+			& + span {
+				position: absolute;
+				text-align: left;
+				left: 4em;
+				top: 0.5em;
+			}
+		}
+
+		& > span {
+			text-decoration: none;
+		}
+  }
+}

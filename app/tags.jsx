@@ -153,30 +153,90 @@ export default class Tags extends Component {
 
 				<div>
 					<h1>Badges</h1>
-					<div className='row'>
-						<TagCard type='badge'>
+					<br/>
+					<p className='text-muted'>Inline Badges</p>
+					<div className='row badges'>
+						<TagCard type='Green Inline Badge'>
 							{ this.makeStyle( require('styles/components/badges/green-badge.tag.less') ) }
 							<div className='rc-badge-green'>
 								<a href='http://www.recurse.com'>
 									<SvgIcon src={ svgLogo }/>
-									<span>Made at the <strong>Recurse Center</strong></span>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='Light Badge'>
+						<TagCard type='Light Inline Badge'>
 							{ this.makeStyle( require('styles/components/badges/white-badge.tag.less') ) }
 							<div className='rc-badge-white'>
 								<a href='http://www.recurse.com'>
 									<SvgIcon src={ svgLogo }/>
-									<span>Made at the <strong>Recurse Center</strong></span>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='Dark Badge'>
+						<TagCard type='Dark Inline Badge'>
 							{ this.makeStyle( require('styles/components/badges/black-badge.tag.less') ) }
 							<div className='rc-badge-black'>
 								<a href='http://www.recurse.com'>
 									<SvgIcon src={ svgLogoStroke }/>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
+								</a>
+							</div>
+						</TagCard>
+					</div>
+
+					<br/>
+					<p className='text-muted'>Block Badges</p>
+					<div className='row badges'>
+						<TagCard type='Green Block Badge'>
+							{ this.makeStyle( require('styles/components/badges/green-badge.tag.less') ) }
+							<div className='rc-badge-green'>
+								<a href='http://www.recurse.com'>
+									<div className='block-icon'>
+										<SvgIcon src={ svgLogo }/>
+									</div>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
+								</a>
+							</div>
+						</TagCard>
+						<TagCard type='Light Block Badge'>
+							{ this.makeStyle( require('styles/components/badges/white-badge.tag.less') ) }
+							<div className='rc-badge-white'>
+								<a href='http://www.recurse.com'>
+									<div className='block-icon'>
+										<SvgIcon src={ svgLogo }/>
+									</div>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
+								</a>
+							</div>
+						</TagCard>
+						<TagCard type='Dark Block Badge'>
+							{ this.makeStyle( require('styles/components/badges/black-badge.tag.less') ) }
+							<div className='rc-badge-black'>
+								<a href='http://www.recurse.com'>
+									<div className='block-icon'>
+										<SvgIcon src={ svgLogoStroke }/>
+									</div>
 									<span>
 										<span>Made at the</span>
 										<br/>
