@@ -20063,11 +20063,11 @@
 
 	var _tags2 = _interopRequireDefault(_tags);
 
-	var _svgInlineLoaderLibComponent = __webpack_require__(200);
+	var _svgInlineLoaderLibComponent = __webpack_require__(199);
 
 	var _svgInlineLoaderLibComponent2 = _interopRequireDefault(_svgInlineLoaderLibComponent);
 
-	var svgLogo = __webpack_require__(202);
+	var svgLogo = __webpack_require__(201);
 
 	var App = (function (_Component) {
 		_inherits(App, _Component);
@@ -20630,12 +20630,12 @@
 
 	var _tagCard2 = _interopRequireDefault(_tagCard);
 
-	var _svgInlineLoaderLibComponent = __webpack_require__(200);
+	var _svgInlineLoaderLibComponent = __webpack_require__(199);
 
 	var _svgInlineLoaderLibComponent2 = _interopRequireDefault(_svgInlineLoaderLibComponent);
 
-	var svgLogo = __webpack_require__(202),
-	    svgLogoStroke = __webpack_require__(203);
+	var svgLogo = __webpack_require__(201),
+	    svgLogoStroke = __webpack_require__(215);
 
 	var Tags = (function (_Component) {
 		_inherits(Tags, _Component);
@@ -20677,7 +20677,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Green Ribbon' },
-								this.makeStyle(__webpack_require__(204)),
+								this.makeStyle(__webpack_require__(202)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-left' },
@@ -20701,7 +20701,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Light Ribbon' },
-								this.makeStyle(__webpack_require__(205)),
+								this.makeStyle(__webpack_require__(203)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-left' },
@@ -20725,7 +20725,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Dark Ribbon' },
-								this.makeStyle(__webpack_require__(206)),
+								this.makeStyle(__webpack_require__(204)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-top-left' },
@@ -20759,7 +20759,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Right Green Ribbon' },
-								this.makeStyle(__webpack_require__(207)),
+								this.makeStyle(__webpack_require__(205)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-right' },
@@ -20783,7 +20783,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Right Light Ribbon' },
-								this.makeStyle(__webpack_require__(208)),
+								this.makeStyle(__webpack_require__(206)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-right' },
@@ -20807,7 +20807,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Right Dark Ribbon' },
-								this.makeStyle(__webpack_require__(209)),
+								this.makeStyle(__webpack_require__(207)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-top-right' },
@@ -20841,7 +20841,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Left Green Ribbon' },
-								this.makeStyle(__webpack_require__(210)),
+								this.makeStyle(__webpack_require__(208)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-left' },
@@ -20865,7 +20865,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Left Light Ribbon' },
-								this.makeStyle(__webpack_require__(211)),
+								this.makeStyle(__webpack_require__(209)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-left' },
@@ -20889,7 +20889,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Left Dark Ribbon' },
-								this.makeStyle(__webpack_require__(212)),
+								this.makeStyle(__webpack_require__(210)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-bottom-left' },
@@ -20923,7 +20923,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Right Green Ribbon' },
-								this.makeStyle(__webpack_require__(213)),
+								this.makeStyle(__webpack_require__(211)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-right' },
@@ -20947,7 +20947,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Right Light Ribbon' },
-								this.makeStyle(__webpack_require__(214)),
+								this.makeStyle(__webpack_require__(212)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-right' },
@@ -20971,7 +20971,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Right Dark Ribbon' },
-								this.makeStyle(__webpack_require__(215)),
+								this.makeStyle(__webpack_require__(213)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-bottom-right' },
@@ -21009,7 +21009,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'badge' },
-								this.makeStyle(__webpack_require__(217)),
+								this.makeStyle(__webpack_require__(216)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-badge-green' },
@@ -21033,7 +21033,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Light Badge' },
-								this.makeStyle(__webpack_require__(218)),
+								this.makeStyle(__webpack_require__(217)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-badge-white' },
@@ -21057,7 +21057,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Dark Badge' },
-								this.makeStyle(__webpack_require__(216)),
+								this.makeStyle(__webpack_require__(218)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-badge-black' },
@@ -21140,7 +21140,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _clipboard = __webpack_require__(199);
+	var _clipboard = __webpack_require__(214);
 
 	var _clipboard2 = _interopRequireDefault(_clipboard);
 
@@ -21207,42 +21207,10 @@
 
 /***/ },
 /* 199 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, '__esModule', {
-		value: true
-	});
-	var textArea = document.createElement('textarea');
-	document.body.appendChild(textArea);
-
-	var clipboard = {
-		copy: function copy(text) {
-			// Clear all selection
-			getSelection().removeAllRanges();
-
-			// Update text
-			textArea.value = text;
-			textArea.textContent = text;
-
-			// Select all content
-			textArea.select();
-
-			// Copy to clipboard
-			document.execCommand('copy');
-		}
-	};
-
-	exports['default'] = clipboard;
-	module.exports = exports['default'];
-
-/***/ },
-/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(155);
-	var assign = __webpack_require__(201);
+	var assign = __webpack_require__(200);
 
 
 	// Use like:
@@ -21278,7 +21246,7 @@
 
 
 /***/ },
-/* 201 */
+/* 200 */
 /***/ function(module, exports) {
 
 	/* eslint-disable no-unused-vars */
@@ -21323,19 +21291,13 @@
 
 
 /***/ },
-/* 202 */
+/* 201 */
 /***/ function(module, exports) {
 
 	module.exports = "<svg viewBox=\"0 0 12 15\"><rect x=\"0\" y=\"0\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"1\" y=\"1\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"2\" y=\"2\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"3\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"6\" y=\"3\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"3\" y=\"5\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"6\" y=\"5\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"9\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"1\" y=\"11\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"0\" y=\"12\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"12\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"12\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"12\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
 
 /***/ },
-/* 203 */
-/***/ function(module, exports) {
-
-	module.exports = "<svg viewBox=\"0 0 14 17\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"17\" fill=\"white\"></rect><rect x=\"1\" y=\"1\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"2\" y=\"2\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"3\" y=\"3\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"10\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"12\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"1\" y=\"13\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
-
-/***/ },
-/* 204 */
+/* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21349,7 +21311,7 @@
 
 
 /***/ },
-/* 205 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21363,7 +21325,7 @@
 
 
 /***/ },
-/* 206 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21377,7 +21339,7 @@
 
 
 /***/ },
-/* 207 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21391,7 +21353,7 @@
 
 
 /***/ },
-/* 208 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21405,7 +21367,7 @@
 
 
 /***/ },
-/* 209 */
+/* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21419,7 +21381,7 @@
 
 
 /***/ },
-/* 210 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21433,7 +21395,7 @@
 
 
 /***/ },
-/* 211 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21447,7 +21409,7 @@
 
 
 /***/ },
-/* 212 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21461,7 +21423,7 @@
 
 
 /***/ },
-/* 213 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21475,7 +21437,7 @@
 
 
 /***/ },
-/* 214 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21489,7 +21451,7 @@
 
 
 /***/ },
-/* 215 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21501,6 +21463,44 @@
 
 	// exports
 
+
+/***/ },
+/* 214 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+		value: true
+	});
+	var textArea = document.createElement('textarea');
+	document.body.appendChild(textArea);
+
+	var clipboard = {
+		copy: function copy(text) {
+			// Clear all selection
+			getSelection().removeAllRanges();
+
+			// Update text
+			textArea.value = text;
+			textArea.textContent = text;
+
+			// Select all content
+			textArea.select();
+
+			// Copy to clipboard
+			document.execCommand('copy');
+		}
+	};
+
+	exports['default'] = clipboard;
+	module.exports = exports['default'];
+
+/***/ },
+/* 215 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg viewBox=\"0 0 14 17\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"17\" fill=\"white\"></rect><rect x=\"1\" y=\"1\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"2\" y=\"2\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"3\" y=\"3\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"10\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"12\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"1\" y=\"13\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
 
 /***/ },
 /* 216 */
