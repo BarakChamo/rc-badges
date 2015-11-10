@@ -5,6 +5,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+body > textarea {
+	height: 0px;
+	opacity: 0;
+}
+
 #container {
 	margin-top: 1em;
 }

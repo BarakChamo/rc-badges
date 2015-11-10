@@ -22,7 +22,7 @@ export default class Tags extends Component {
 					<br/>
 					<p className='text-muted'>Top-left ribbons</p>
 					<div className='row'>
-						<TagCard type='ribbon-green-top-left'>
+						<TagCard type='Top-Left Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-green.tag.less') ) }
 							<div className='rc-ribbon-green-top-left'>
 								<a href='http://www.recurse.com'>
@@ -31,7 +31,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-white-top-left'>
+						<TagCard type='Top-Left White Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-white.tag.less') ) }
 							<div className='rc-ribbon-white-top-left'>
 								<a href='http://www.recurse.com'>
@@ -40,7 +40,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-black-top-left'>
+						<TagCard type='Top-Left Black Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-black.tag.less') ) }
 							<div className='rc-ribbon-black-top-left'>
 								<a href='http://www.recurse.com'>
