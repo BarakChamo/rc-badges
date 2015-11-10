@@ -20635,7 +20635,7 @@
 	var _svgInlineLoaderLibComponent2 = _interopRequireDefault(_svgInlineLoaderLibComponent);
 
 	var svgLogo = __webpack_require__(202),
-	    svgLogoStroke = __webpack_require__(215);
+	    svgLogoStroke = __webpack_require__(203);
 
 	var Tags = (function (_Component) {
 		_inherits(Tags, _Component);
@@ -20677,7 +20677,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Green Ribbon' },
-								this.makeStyle(__webpack_require__(203)),
+								this.makeStyle(__webpack_require__(204)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-left' },
@@ -20700,8 +20700,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'Top-Left White Ribbon' },
-								this.makeStyle(__webpack_require__(204)),
+								{ type: 'Top-Left Light Ribbon' },
+								this.makeStyle(__webpack_require__(205)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-left' },
@@ -20724,8 +20724,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'Top-Left Black Ribbon' },
-								this.makeStyle(__webpack_require__(205)),
+								{ type: 'Top-Left Dark Ribbon' },
+								this.makeStyle(__webpack_require__(206)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-top-left' },
@@ -20758,8 +20758,8 @@
 							{ className: 'row' },
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-green-top-right' },
-								this.makeStyle(__webpack_require__(206)),
+								{ type: 'Top-Right Green Ribbon' },
+								this.makeStyle(__webpack_require__(207)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-right' },
@@ -20782,8 +20782,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-white-top-right' },
-								this.makeStyle(__webpack_require__(207)),
+								{ type: 'Top-Right Light Ribbon' },
+								this.makeStyle(__webpack_require__(208)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-right' },
@@ -20806,8 +20806,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-black-top-right' },
-								this.makeStyle(__webpack_require__(208)),
+								{ type: 'Top-Right Dark Ribbon' },
+								this.makeStyle(__webpack_require__(209)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-top-right' },
@@ -20840,8 +20840,8 @@
 							{ className: 'row' },
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-green-bottom-left' },
-								this.makeStyle(__webpack_require__(209)),
+								{ type: 'Bottom-Left Green Ribbon' },
+								this.makeStyle(__webpack_require__(210)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-left' },
@@ -20864,8 +20864,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-white-bottom-left' },
-								this.makeStyle(__webpack_require__(210)),
+								{ type: 'Bottom-Left Light Ribbon' },
+								this.makeStyle(__webpack_require__(211)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-left' },
@@ -20888,8 +20888,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-black-bottom-left' },
-								this.makeStyle(__webpack_require__(211)),
+								{ type: 'Bottom-Left Dark Ribbon' },
+								this.makeStyle(__webpack_require__(212)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-bottom-left' },
@@ -20922,8 +20922,8 @@
 							{ className: 'row' },
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-green-bottom-right' },
-								this.makeStyle(__webpack_require__(212)),
+								{ type: 'Bottom-Right Green Ribbon' },
+								this.makeStyle(__webpack_require__(213)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-right' },
@@ -20946,8 +20946,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-white-bottom-right' },
-								this.makeStyle(__webpack_require__(213)),
+								{ type: 'Bottom-Right Light Ribbon' },
+								this.makeStyle(__webpack_require__(214)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-right' },
@@ -20970,8 +20970,8 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'ribbon-black-bottom-right' },
-								this.makeStyle(__webpack_require__(214)),
+								{ type: 'Bottom-Right Dark Ribbon' },
+								this.makeStyle(__webpack_require__(215)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-black-bottom-right' },
@@ -21006,9 +21006,83 @@
 						_react2['default'].createElement(
 							'div',
 							{ className: 'row' },
-							_react2['default'].createElement(_tagCard2['default'], { type: 'badge' }),
-							_react2['default'].createElement(_tagCard2['default'], { type: 'badge' }),
-							_react2['default'].createElement(_tagCard2['default'], { type: 'badge' })
+							_react2['default'].createElement(
+								_tagCard2['default'],
+								{ type: 'badge' },
+								this.makeStyle(__webpack_require__(217)),
+								_react2['default'].createElement(
+									'div',
+									{ className: 'rc-badge-green' },
+									_react2['default'].createElement(
+										'a',
+										{ href: 'http://www.recurse.com' },
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(
+											'span',
+											null,
+											'Made at the ',
+											_react2['default'].createElement(
+												'strong',
+												null,
+												'Recurse Center'
+											)
+										)
+									)
+								)
+							),
+							_react2['default'].createElement(
+								_tagCard2['default'],
+								{ type: 'Light Badge' },
+								this.makeStyle(__webpack_require__(218)),
+								_react2['default'].createElement(
+									'div',
+									{ className: 'rc-badge-white' },
+									_react2['default'].createElement(
+										'a',
+										{ href: 'http://www.recurse.com' },
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(
+											'span',
+											null,
+											'Made at the ',
+											_react2['default'].createElement(
+												'strong',
+												null,
+												'Recurse Center'
+											)
+										)
+									)
+								)
+							),
+							_react2['default'].createElement(
+								_tagCard2['default'],
+								{ type: 'Dark Badge' },
+								this.makeStyle(__webpack_require__(216)),
+								_react2['default'].createElement(
+									'div',
+									{ className: 'rc-badge-black' },
+									_react2['default'].createElement(
+										'a',
+										{ href: 'http://www.recurse.com' },
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogoStroke }),
+										_react2['default'].createElement(
+											'span',
+											null,
+											_react2['default'].createElement(
+												'span',
+												null,
+												'Made at the'
+											),
+											_react2['default'].createElement('br', null),
+											_react2['default'].createElement(
+												'strong',
+												null,
+												'Recurse Center'
+											)
+										)
+									)
+								)
+							)
 						)
 					),
 					_react2['default'].createElement('br', null),
@@ -21106,7 +21180,11 @@
 							_react2['default'].createElement(
 								'p',
 								{ className: 'card-text' },
-								this.props.type
+								_react2['default'].createElement(
+									'small',
+									null,
+									this.props.type
+								)
 							),
 							_react2['default'].createElement(
 								'a',
@@ -21252,6 +21330,12 @@
 
 /***/ },
 /* 203 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg viewBox=\"0 0 14 17\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"17\" fill=\"white\"></rect><rect x=\"1\" y=\"1\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"2\" y=\"2\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"3\" y=\"3\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"10\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"12\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"1\" y=\"13\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
+
+/***/ },
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21265,7 +21349,7 @@
 
 
 /***/ },
-/* 204 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21279,7 +21363,7 @@
 
 
 /***/ },
-/* 205 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21293,7 +21377,7 @@
 
 
 /***/ },
-/* 206 */
+/* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21307,7 +21391,7 @@
 
 
 /***/ },
-/* 207 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21321,7 +21405,7 @@
 
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21335,7 +21419,7 @@
 
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21349,7 +21433,7 @@
 
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21363,7 +21447,7 @@
 
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21377,7 +21461,7 @@
 
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21391,7 +21475,7 @@
 
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21405,7 +21489,7 @@
 
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(7)();
@@ -21419,10 +21503,46 @@
 
 
 /***/ },
-/* 215 */
-/***/ function(module, exports) {
+/* 216 */
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<svg viewBox=\"0 0 14 17\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"17\" fill=\"white\"></rect><rect x=\"1\" y=\"1\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"2\" y=\"2\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"3\" y=\"3\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"10\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"12\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"1\" y=\"13\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
+	exports = module.exports = __webpack_require__(7)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "", ""]);
+
+	// exports
+
+
+/***/ },
+/* 217 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(7)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "", ""]);
+
+	// exports
+
+
+/***/ },
+/* 218 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(7)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "", ""]);
+
+	// exports
+
 
 /***/ }
 /******/ ]);

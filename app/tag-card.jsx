@@ -22,7 +22,7 @@ export default class TagCard extends Component {
 				  </div>
 
 				  <div className="card-block">
-				    <p className="card-text">{ this.props.type }</p>
+				    <p className="card-text"><small>{ this.props.type }</small></p>
 				    <a className="btn btn-primary" onClick={ e => this.copy() }>Copy to Clipboard</a>
 				  </div>
 				</div>

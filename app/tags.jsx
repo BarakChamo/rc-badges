@@ -32,7 +32,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='Top-Left White Ribbon'>
+						<TagCard type='Top-Left Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-white.tag.less') ) }
 							<div className='rc-ribbon-white-top-left'>
 								<a href='http://www.recurse.com'>
@@ -41,7 +41,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='Top-Left Black Ribbon'>
+						<TagCard type='Top-Left Dark Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-black.tag.less') ) }
 							<div className='rc-ribbon-black-top-left'>
 								<a href='http://www.recurse.com'>
@@ -55,7 +55,7 @@ export default class Tags extends Component {
 					<br/>
 					<p className='text-muted'>Top-right ribbons</p>
 					<div className='row'>
-						<TagCard type='ribbon-green-top-right'>
+						<TagCard type='Top-Right Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-right-green.tag.less') ) }
 							<div className='rc-ribbon-green-top-right'>
 								<a href='http://www.recurse.com'>
@@ -64,7 +64,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-white-top-right'>
+						<TagCard type='Top-Right Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-right-white.tag.less') ) }
 							<div className='rc-ribbon-white-top-right'>
 								<a href='http://www.recurse.com'>
@@ -73,7 +73,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-black-top-right'>
+						<TagCard type='Top-Right Dark Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-right-black.tag.less') ) }
 							<div className='rc-ribbon-black-top-right'>
 								<a href='http://www.recurse.com'>
@@ -87,7 +87,7 @@ export default class Tags extends Component {
 					<br/>
 					<p className='text-muted'>Bottom-left ribbons</p>
 					<div className='row'>
-						<TagCard type='ribbon-green-bottom-left'>
+						<TagCard type='Bottom-Left Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-green.tag.less') ) }
 							<div className='rc-ribbon-green-bottom-left'>
 								<a href='http://www.recurse.com'>
@@ -96,7 +96,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-white-bottom-left'>
+						<TagCard type='Bottom-Left Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-white.tag.less') ) }
 							<div className='rc-ribbon-white-bottom-left'>
 								<a href='http://www.recurse.com'>
@@ -105,7 +105,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-black-bottom-left'>
+						<TagCard type='Bottom-Left Dark Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-black.tag.less') ) }
 							<div className='rc-ribbon-black-bottom-left'>
 								<a href='http://www.recurse.com'>
@@ -119,7 +119,7 @@ export default class Tags extends Component {
 					<br/>
 					<p className='text-muted'>Bottom-right ribbons</p>
 					<div className='row'>
-						<TagCard type='ribbon-green-bottom-right'>
+						<TagCard type='Bottom-Right Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-green.tag.less') ) }
 							<div className='rc-ribbon-green-bottom-right'>
 								<a href='http://www.recurse.com'>
@@ -128,7 +128,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-white-bottom-right'>
+						<TagCard type='Bottom-Right Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-white.tag.less') ) }
 							<div className='rc-ribbon-white-bottom-right'>
 								<a href='http://www.recurse.com'>
@@ -137,7 +137,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='ribbon-black-bottom-right'>
+						<TagCard type='Bottom-Right Dark Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-black.tag.less') ) }
 							<div className='rc-ribbon-black-bottom-right'>
 								<a href='http://www.recurse.com'>
@@ -155,13 +155,35 @@ export default class Tags extends Component {
 					<h1>Badges</h1>
 					<div className='row'>
 						<TagCard type='badge'>
-
+							{ this.makeStyle( require('styles/components/badges/green-badge.tag.less') ) }
+							<div className='rc-badge-green'>
+								<a href='http://www.recurse.com'>
+									<SvgIcon src={ svgLogo }/>
+									<span>Made at the <strong>Recurse Center</strong></span>
+								</a>
+							</div>
 						</TagCard>
-						<TagCard type='badge'>
-
+						<TagCard type='Light Badge'>
+							{ this.makeStyle( require('styles/components/badges/white-badge.tag.less') ) }
+							<div className='rc-badge-white'>
+								<a href='http://www.recurse.com'>
+									<SvgIcon src={ svgLogo }/>
+									<span>Made at the <strong>Recurse Center</strong></span>
+								</a>
+							</div>
 						</TagCard>
-						<TagCard type='badge'>
-
+						<TagCard type='Dark Badge'>
+							{ this.makeStyle( require('styles/components/badges/black-badge.tag.less') ) }
+							<div className='rc-badge-black'>
+								<a href='http://www.recurse.com'>
+									<SvgIcon src={ svgLogoStroke }/>
+									<span>
+										<span>Made at the</span>
+										<br/>
+										<strong>Recurse Center</strong>
+									</span>
+								</a>
+							</div>
 						</TagCard>
 					</div>
 				</div>
