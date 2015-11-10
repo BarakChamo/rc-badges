@@ -36,6 +36,11 @@ export default class App extends Component {
 									<kbd className='hash-tag'>#WOW</kbd>
 								</div>
 								<br/>
+									<div>
+										<iframe src="https://ghbtns.com/github-btn.html?user=barakchamo&repo=rc-badges&type=star&count=true" frameBorder="0" scrolling="0" width="100px" height="20px"></iframe>
+										<iframe src="https://ghbtns.com/github-btn.html?user=barakchamo&repo=rc-badges&type=fork&count=true" frameBorder="0" scrolling="0" width="100px" height="20px"></iframe>
+									</div>
+								<br/>
 							</div>
 							
 							<Tags/>
