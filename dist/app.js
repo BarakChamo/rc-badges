@@ -20634,7 +20634,8 @@
 
 	var _svgInlineLoaderLibComponent2 = _interopRequireDefault(_svgInlineLoaderLibComponent);
 
-	var svgLogo = __webpack_require__(202);
+	var svgLogo = __webpack_require__(202),
+	    svgLogoStroke = __webpack_require__(215);
 
 	var Tags = (function (_Component) {
 		_inherits(Tags, _Component);
@@ -20731,7 +20732,7 @@
 									_react2['default'].createElement(
 										'a',
 										{ href: 'http://www.recurse.com' },
-										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogoStroke }),
 										_react2['default'].createElement(
 											'span',
 											null,
@@ -20813,7 +20814,7 @@
 									_react2['default'].createElement(
 										'a',
 										{ href: 'http://www.recurse.com' },
-										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogoStroke }),
 										_react2['default'].createElement(
 											'span',
 											null,
@@ -20895,7 +20896,7 @@
 									_react2['default'].createElement(
 										'a',
 										{ href: 'http://www.recurse.com' },
-										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogoStroke }),
 										_react2['default'].createElement(
 											'span',
 											null,
@@ -20977,7 +20978,7 @@
 									_react2['default'].createElement(
 										'a',
 										{ href: 'http://www.recurse.com' },
-										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogo }),
+										_react2['default'].createElement(_svgInlineLoaderLibComponent2['default'], { src: svgLogoStroke }),
 										_react2['default'].createElement(
 											'span',
 											null,
@@ -21416,6 +21417,12 @@
 
 	// exports
 
+
+/***/ },
+/* 215 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg viewBox=\"0 0 14 17\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"17\" fill=\"white\"></rect><rect x=\"1\" y=\"1\" width=\"12\" height=\"10\" fill=\"black\"></rect><rect x=\"2\" y=\"2\" width=\"10\" height=\"8\" fill=\"white\"></rect><rect x=\"3\" y=\"3\" width=\"8\" height=\"6\" fill=\"black\"></rect><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"4\" width=\"1\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"#61ae24\"></rect><rect x=\"5\" y=\"10\" width=\"4\" height=\"3\" fill=\"black\"></rect><rect x=\"2\" y=\"12\" width=\"10\" height=\"4\" fill=\"black\"></rect><rect x=\"1\" y=\"13\" width=\"12\" height=\"3\" fill=\"black\"></rect><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\"></rect><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\"></rect></svg>"
 
 /***/ }
 /******/ ]);

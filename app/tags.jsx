@@ -3,7 +3,8 @@ import React, {Component} from 'react'
 import TagCard            from 'tag-card'
 import SvgIcon 						from 'svg-inline-loader/lib/component'
 
-const svgLogo = require('logo.svg')
+const svgLogo 			= require('logo.svg'),
+			svgLogoStroke = require('logo-stroke.svg')
 
 export default class Tags extends Component {
 	constructor() {
@@ -44,7 +45,7 @@ export default class Tags extends Component {
 							{ this.makeStyle( require('styles/components/ribbons/top-left-black.tag.less') ) }
 							<div className='rc-ribbon-black-top-left'>
 								<a href='http://www.recurse.com'>
-									<SvgIcon src={ svgLogo }/>
+									<SvgIcon src={ svgLogoStroke }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
 							</div>
@@ -76,7 +77,7 @@ export default class Tags extends Component {
 							{ this.makeStyle( require('styles/components/ribbons/top-right-black.tag.less') ) }
 							<div className='rc-ribbon-black-top-right'>
 								<a href='http://www.recurse.com'>
-									<SvgIcon src={ svgLogo }/>
+									<SvgIcon src={ svgLogoStroke }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
 							</div>
@@ -108,7 +109,7 @@ export default class Tags extends Component {
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-black.tag.less') ) }
 							<div className='rc-ribbon-black-bottom-left'>
 								<a href='http://www.recurse.com'>
-									<SvgIcon src={ svgLogo }/>
+									<SvgIcon src={ svgLogoStroke }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
 							</div>
@@ -140,7 +141,7 @@ export default class Tags extends Component {
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-black.tag.less') ) }
 							<div className='rc-ribbon-black-bottom-right'>
 								<a href='http://www.recurse.com'>
-									<SvgIcon src={ svgLogo }/>
+									<SvgIcon src={ svgLogoStroke }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
 							</div>
