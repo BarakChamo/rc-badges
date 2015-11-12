@@ -2,7 +2,7 @@
   "name": "rc-badges",
   "version": "1.0.0",
   "description": "Recurse Center Project Tags",
-  "main": "index.js",
+  "main": "lib.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
