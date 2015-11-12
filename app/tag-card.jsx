@@ -22,9 +22,11 @@ export default class TagCard extends Component {
 	}
 
 	render() {
-		const button = this.state.clicked 
+		let button = this.state.clicked 
 			? (<a className="btn btn-success" onClick={ e => this.copy() }> { String.fromCharCode(10003) } Copied snippet</a>)
 			: (<a className="btn btn-primary" onClick={ e => this.copy() }>Copy to Clipboard</a>)
+
+			if (this.props.disabled) button = (<a className="btn btn-primary disabled" disabled='true'>Coming Soon</a>)
 
 		return (
 			<div className='col-sm-12 col-md-4'>

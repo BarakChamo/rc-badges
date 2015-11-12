@@ -269,9 +269,9 @@ export default class Tags extends Component {
 				<br/>
 
 				<div>
-					<h1>Seals</h1>
+					<h1><span>Seals </span><small><small><small className='text-muted'>work in progress</small></small></small></h1>
 					<div className='row seals'>
-						<TagCard type='seal'>
+						<TagCard type='seal' disabled='true'>
 							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
 							<div className='rc-seal-green'>
 								<a>
@@ -279,7 +279,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='seal'>
+						<TagCard type='seal' disabled='true'>
 							{ this.makeStyle( require('styles/components/seals/white-seal.tag.less') ) }
 							<div className='rc-seal-white'>
 								<a>
@@ -287,7 +287,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='seal'>
+						<TagCard type='seal' disabled='true'>
 							{ this.makeStyle( require('styles/components/seals/black-seal.tag.less') ) }
 							<div className='rc-seal-black'>
 								<a>

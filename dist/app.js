@@ -21242,14 +21242,31 @@
 						_react2['default'].createElement(
 							'h1',
 							null,
-							'Seals'
+							_react2['default'].createElement(
+								'span',
+								null,
+								'Seals '
+							),
+							_react2['default'].createElement(
+								'small',
+								null,
+								_react2['default'].createElement(
+									'small',
+									null,
+									_react2['default'].createElement(
+										'small',
+										{ className: 'text-muted' },
+										'work in progress'
+									)
+								)
+							)
 						),
 						_react2['default'].createElement(
 							'div',
 							{ className: 'row seals' },
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'seal' },
+								{ type: 'seal', disabled: 'true' },
 								this.makeStyle(__webpack_require__(223)),
 								_react2['default'].createElement(
 									'div',
@@ -21263,7 +21280,7 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'seal' },
+								{ type: 'seal', disabled: 'true' },
 								this.makeStyle(__webpack_require__(224)),
 								_react2['default'].createElement(
 									'div',
@@ -21277,7 +21294,7 @@
 							),
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'seal' },
+								{ type: 'seal', disabled: 'true' },
 								this.makeStyle(__webpack_require__(220)),
 								_react2['default'].createElement(
 									'div',
@@ -21378,6 +21395,12 @@
 							return _this2.copy();
 						} },
 					'Copy to Clipboard'
+				);
+
+				if (this.props.disabled) button = _react2['default'].createElement(
+					'a',
+					{ className: 'btn btn-primary disabled', disabled: 'true' },
+					'Coming Soon'
 				);
 
 				return _react2['default'].createElement(
