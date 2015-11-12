@@ -61,7 +61,8 @@ module.exports = [{
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/dist/',
-		filename: '[name].js'
+		filename: '[name].js',
+		library:  'RC'
 	},
 
 	module: {
