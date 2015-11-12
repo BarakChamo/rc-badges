@@ -5,15 +5,29 @@ import clipboard          from './clipboard'
 export default class TagCard extends Component {
 	constructor() {
 		super()
+
+		this.state = {
+			clicked: false
+		}
 	}
 
 	copy() {
 		clipboard.copy(
-			ReactDOM.findDOMNode(this).getElementsByClassName('tag-container')[0].innerHTML.replace(/\s?data-reactid="[.|\d]+"/g, '')
+			ReactDOM.findDOMNode(this).getElementsByClassName('tag-container')[0].innerHTML.replace(/\s?data-reactid="[.|\d]+"/g, '').replace(/(\r\n|\n|\r)/gm, '')
 		)
+
+		this.setState({clicked: true})
+
+		setTimeout(e => this.setState({clicked: false}), 1000)
 	}
 
 	render() {
+		let button = this.state.clicked 
+			? (<a className="btn btn-success" onClick={ e => this.copy() }> { String.fromCharCode(10003) } Copied snippet</a>)
+			: (<a className="btn btn-primary" onClick={ e => this.copy() }>Copy to Clipboard</a>)
+
+			if (this.props.disabled) button = (<a className="btn btn-primary disabled" disabled='true'>Coming Soon</a>)
+
 		return (
 			<div className='col-sm-12 col-md-4'>
 				<div className="card">
@@ -23,7 +37,9 @@ export default class TagCard extends Component {
 
 				  <div className="card-block">
 				    <p className="card-text"><small>{ this.props.type }</small></p>
-				    <a className="btn btn-primary" onClick={ e => this.copy() }>Copy to Clipboard</a>
+				    <div className='text-center'>
+							{ button }
+				    </div>
 				  </div>
 				</div>
 		  </div>
