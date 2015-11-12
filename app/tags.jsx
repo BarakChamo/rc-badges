@@ -4,7 +4,8 @@ import TagCard            from 'tag-card'
 import SvgIcon 						from 'svg-inline-loader/lib/component'
 
 const svgLogo 			= require('logo.svg'),
-			svgLogoStroke = require('logo-stroke.svg')
+			svgLogoStroke = require('logo-stroke.svg'),
+			svgLogoSeal   = require('logo-seal.svg')
 
 export default class Tags extends Component {
 	constructor() {
@@ -261,6 +262,38 @@ export default class Tags extends Component {
 						</TagCard>
 						<TagCard type='pill'>
 
+						</TagCard>
+					</div>
+				</div>
+
+				<br/>
+
+				<div>
+					<h1>Seals</h1>
+					<div className='row seals'>
+						<TagCard type='seal'>
+							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
+							<div className='rc-seal-green'>
+								<a>
+									<SvgIcon src={ svgLogo }/>
+								</a>
+							</div>
+						</TagCard>
+						<TagCard type='seal'>
+							{ this.makeStyle( require('styles/components/seals/white-seal.tag.less') ) }
+							<div className='rc-seal-white'>
+								<a>
+									<SvgIcon src={ svgLogo }/>
+								</a>
+							</div>
+						</TagCard>
+						<TagCard type='seal'>
+							{ this.makeStyle( require('styles/components/seals/black-seal.tag.less') ) }
+							<div className='rc-seal-black'>
+								<a>
+									<SvgIcon src={ svgLogo }/>
+								</a>
+							</div>
 						</TagCard>
 					</div>
 				</div>

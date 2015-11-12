@@ -1,8 +1,9 @@
 @import 'type';
 @import 'bootstrap';
 
-body {
+html, body {
 	font-family: 'Open Sans', sans-serif;
+	height: 100%;
 }
 
 body > textarea {
@@ -10,8 +11,13 @@ body > textarea {
 	opacity: 0;
 }
 
+.btn {
+	transition: all 0.4s;
+}
+
 #container {
 	margin-top: 1em;
+	height: 100%;
 }
 
 .main-logo {
@@ -90,4 +96,9 @@ body > textarea {
 .badges .tag-container {
 	padding-top: 65px;
 	vertical-align: middle;
+}
+
+.seals .tag-container {
+	padding-top: 30px;
+	vertical-align: middle;	
 }
