@@ -29,7 +29,7 @@ export default class TagCard extends Component {
 			if (this.props.disabled) button = (<a className="btn btn-primary disabled" disabled='true'>Coming Soon</a>)
 
 		return (
-			<div className='col-sm-12 col-md-6'>
+			<div className={ `col-sm-12 col-md-6 ${ this.props.single && 'col-md-offset-3' }` }>
 				<div className="card">
 				  <div className="tag-container card-img-fake">
 						{ this.props.children }

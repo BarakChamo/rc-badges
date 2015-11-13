@@ -153,20 +153,12 @@ export default class Tags extends Component {
 				<br/>
 
 				<div>
-					<h1><span>Seals </span><small><small><small className='text-muted'>work in progress</small></small></small></h1>
+					<h1>Seal</h1>
 					<div className='row seals'>
-						<TagCard type='seal' disabled='true'>
+						<TagCard type='seal' disabled='true' single={ true }>
 							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
 							<div className='rc-seal-green'>
-								<a>
-									<SvgIcon src={ svgLogo }/>
-								</a>
-							</div>
-						</TagCard>
-						<TagCard type='seal' disabled='true'>
-							{ this.makeStyle( require('styles/components/seals/black-seal.tag.less') ) }
-							<div className='rc-seal-black'>
-								<a>
+								<a href='http://www.recurse.com'>
 									<SvgIcon src={ svgLogo }/>
 								</a>
 							</div>
