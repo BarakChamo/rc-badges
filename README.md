@@ -1,1 +1,23 @@
-# Recurse Center ribbons, badges and tags
+# [Recurse Center Tags](http://swag.recurse.com)
+
+Ribbons and badges for open source project made at RC.
+
+### How to use the tags
+
+#### Method 1: Code Snippets
+
+Go to the [tags project page](http://swag.recurse.com) and select a tag you want to embed in your page. Click `Copy to Clipboard` and the a snippet will be copied. The snippet includes all needed HTML, CSS and the logo SVG so it can display properly online or offline without any added resources.
+
+#### Method 2: Compoments
+
+The tags will soon be available as components for React and Angular 1 & 2 (a bit later on).
+
+To install the tags module:
+`npm install rc-badges`
+
+
+### How to build and contribute
+
+To build the tags run the webpack build command from the project's root folder: `webpack -w`.
+Webpack will watch the project files and re-compile on every change. Note that this is not the webpack-dev-server 
+so to open the project simply run `index.html` in your browser.
