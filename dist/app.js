@@ -21089,7 +21089,7 @@
 							{ className: 'row seals' },
 							_react2['default'].createElement(
 								_tagCard2['default'],
-								{ type: 'seal', disabled: 'true', single: true },
+								{ type: 'seal', single: true },
 								this.makeStyle(__webpack_require__(217)),
 								_react2['default'].createElement(
 									'div',

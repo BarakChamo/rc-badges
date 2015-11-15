@@ -155,7 +155,7 @@ export default class Tags extends Component {
 				<div>
 					<h1>Seal</h1>
 					<div className='row seals'>
-						<TagCard type='seal' disabled='true' single={ true }>
+						<TagCard type='seal' single={ true }>
 							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
 							<div className='rc-seal-green'>
 								<a href='http://www.recurse.com'>
