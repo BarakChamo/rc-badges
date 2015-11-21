@@ -5,7 +5,8 @@ import SvgIcon 						from 'svg-inline-loader/lib/component'
 
 const svgLogo 			= require('logo.svg'),
 			svgLogoStroke = require('logo-stroke.svg'),
-			svgLogoSeal   = require('logo-seal.svg')
+			svgLogoSeal   = require('logo-seal.svg'),
+			svgHeart      = require('heart.svg')
 
 export default class Tags extends Component {
 	constructor() {
@@ -27,7 +28,7 @@ export default class Tags extends Component {
 						<TagCard type='Top-Left Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-green.tag.less') ) }
 							<div className='rc-ribbon-green-top-left'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -36,7 +37,7 @@ export default class Tags extends Component {
 						<TagCard type='Top-Left Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-left-white.tag.less') ) }
 							<div className='rc-ribbon-white-top-left'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -50,7 +51,7 @@ export default class Tags extends Component {
 						<TagCard type='Top-Right Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-right-green.tag.less') ) }
 							<div className='rc-ribbon-green-top-right'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -59,7 +60,7 @@ export default class Tags extends Component {
 						<TagCard type='Top-Right Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/top-right-white.tag.less') ) }
 							<div className='rc-ribbon-white-top-right'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -74,7 +75,7 @@ export default class Tags extends Component {
 						<TagCard type='Bottom-Left Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-green.tag.less') ) }
 							<div className='rc-ribbon-green-bottom-left'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -83,7 +84,7 @@ export default class Tags extends Component {
 						<TagCard type='Bottom-Left Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-left-white.tag.less') ) }
 							<div className='rc-ribbon-white-bottom-left'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -97,7 +98,7 @@ export default class Tags extends Component {
 						<TagCard type='Bottom-Right Green Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-green.tag.less') ) }
 							<div className='rc-ribbon-green-bottom-right'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -106,7 +107,7 @@ export default class Tags extends Component {
 						<TagCard type='Bottom-Right Light Ribbon'>
 							{ this.makeStyle( require('styles/components/ribbons/bottom-right-white.tag.less') ) }
 							<div className='rc-ribbon-white-bottom-right'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
 									<span>Made at the <strong>Recurse Center</strong></span>
 								</a>
@@ -121,7 +122,7 @@ export default class Tags extends Component {
 						<TagCard type='Green Block Badge'>
 							{ this.makeStyle( require('styles/components/badges/green-badge.tag.less') ) }
 							<div className='rc-badge-green'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<div className='block-icon'>
 										<SvgIcon src={ svgLogo }/>
 									</div>
@@ -136,7 +137,7 @@ export default class Tags extends Component {
 						<TagCard type='Light Block Badge'>
 							{ this.makeStyle( require('styles/components/badges/white-badge.tag.less') ) }
 							<div className='rc-badge-white'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<div className='block-icon'>
 										<SvgIcon src={ svgLogo }/>
 									</div>
@@ -155,11 +156,28 @@ export default class Tags extends Component {
 				<div>
 					<h1>Seal</h1>
 					<div className='row seals'>
-						<TagCard type='seal' single={ true }>
+						<TagCard type='Recurse Center Seal' single={ true }>
 							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
 							<div className='rc-seal-green'>
-								<a href='http://www.recurse.com'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
 									<SvgIcon src={ svgLogo }/>
+								</a>
+							</div>
+						</TagCard>
+					</div>
+				</div>
+
+				<div>
+					<h1>Text</h1>
+					<div className='row text'>
+						<TagCard type='"Made with Love" Text Label' single={ true }>
+							{ this.makeStyle( require('styles/components/text/text.tag.less') ) }
+							<div className='rc-text'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
+									<span>Made with </span>
+									<SvgIcon src={ svgHeart }/>
+									<span> at the </span>
+									<span className='green'>Recurse Center</span>
 								</a>
 							</div>
 						</TagCard>
