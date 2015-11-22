@@ -119,7 +119,7 @@ export default class Tags extends Component {
 					<br/>
 					<p className='text-muted'>Block Badges</p>
 					<div className='row badges'>
-						<TagCard type='Green Block Badge'>
+						<TagCard type='Green Block Badge' height='59px' image='https://cloud.githubusercontent.com/assets/2883345/11322972/9e553260-910b-11e5-8de9-a5bf00c352ef.png'>
 							{ this.makeStyle( require('styles/components/badges/green-badge.tag.less') ) }
 							<div className='rc-badge-green'>
 								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
@@ -134,7 +134,7 @@ export default class Tags extends Component {
 								</a>
 							</div>
 						</TagCard>
-						<TagCard type='Light Block Badge'>
+						<TagCard type='Light Block Badge' height='59px' image='https://cloud.githubusercontent.com/assets/2883345/11322974/9e572610-910b-11e5-9775-698cbe868a67.png'>
 							{ this.makeStyle( require('styles/components/badges/white-badge.tag.less') ) }
 							<div className='rc-badge-white'>
 								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
@@ -156,7 +156,7 @@ export default class Tags extends Component {
 				<div>
 					<h1>Seal</h1>
 					<div className='row seals'>
-						<TagCard type='Recurse Center Seal' single={ true }>
+						<TagCard type='Recurse Center Seal' single={ true } height='75px' image='https://cloud.githubusercontent.com/assets/2883345/11322975/9e575dce-910b-11e5-9f47-1fb1b530a4bd.png'>
 							{ this.makeStyle( require('styles/components/seals/green-seal.tag.less') ) }
 							<div className='rc-seal-green'>
 								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
@@ -170,7 +170,7 @@ export default class Tags extends Component {
 				<div>
 					<h1>Text</h1>
 					<div className='row text'>
-						<TagCard type='"Made with Love" Text Label' single={ true }>
+						<TagCard type='"Made with Love" Text Label' single={ true } height='14px' image='https://cloud.githubusercontent.com/assets/2883345/11322973/9e557144-910b-11e5-959a-8fdaaa4a88c5.png'>
 							{ this.makeStyle( require('styles/components/text/text.tag.less') ) }
 							<div className='rc-text'>
 								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
