@@ -11,6 +11,23 @@ body > textarea {
 	opacity: 0;
 }
 
+.wow {
+    width: 250px;
+    position: fixed;
+    right: -50px;
+    bottom: -250px;
+  
+  	transition: bottom 0.4s;
+
+    img {
+    	width: 100%;
+    }
+}
+
+body.copied .wow {
+	bottom: -40px;
+}
+
 .btn {
 	transition: all 0.4s;
 }
