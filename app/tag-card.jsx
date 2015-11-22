@@ -7,7 +7,8 @@ export default class TagCard extends Component {
 		super()
 
 		this.state = {
-			clicked: false
+			html:  false,
+			image: false
 		}
 	}
 
@@ -16,17 +17,36 @@ export default class TagCard extends Component {
 			ReactDOM.findDOMNode(this).getElementsByClassName('tag-container')[0].innerHTML.replace(/\s?data-reactid="[.|\d]+"/g, '').replace(/(\r\n|\n|\r)/gm, '')
 		)
 
-		this.setState({clicked: true})
+		this.setState({html: true})
 
-		setTimeout(e => this.setState({clicked: false}), 1000)
+		setTimeout(e => this.setState({html: false}), 1000)
+	}
+
+	image() {
+		clipboard.copy(`<a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='${ this.props.image }' height='${ this.props.height }'/></a>`)
+
+		this.setState({image: true})
+
+		setTimeout(e => this.setState({image: false}), 1000)
 	}
 
 	render() {
-		let button = this.state.clicked 
-			? (<a className="btn btn-success" onClick={ e => this.copy() }> { String.fromCharCode(10003) } Copied snippet</a>)
-			: (<a className="btn btn-primary" onClick={ e => this.copy() }>Copy to Clipboard</a>)
+		let buttons = []
 
-			if (this.props.disabled) button = (<a className="btn btn-primary disabled" disabled='true'>Coming Soon</a>)
+		// HTML Copy button
+		buttons[0] = this.state.html 
+			? (<a className="btn btn-success-outline"> { String.fromCharCode(10003) } Copied</a>)
+			: (<a className="btn btn-primary-outline" onClick={ e => this.copy() }>Copy snippet</a>)
+
+		if (this.props.image) {		
+			buttons[1] = this.state.image 
+				? (<a className="btn btn-success-outline"> { String.fromCharCode(10003) } Copied</a>)
+				: (<a className="btn btn-primary-outline" onClick={ e => this.image() }>Copy image</a>)
+		}
+
+			if (this.props.disabled) {
+				button[0] = button[1] = (<a className="btn btn-primary disabled" disabled='true'>Coming Soon</a>)
+			}
 
 		return (
 			<div className={ `col-sm-12 col-md-6 ${ this.props.single && 'col-md-offset-3' }` }>
@@ -38,7 +58,9 @@ export default class TagCard extends Component {
 				  <div className="card-block">
 				    <p className="card-text"><small>{ this.props.type }</small></p>
 				    <div className='text-center'>
-							{ button }
+				    	<div className='btn-group'>
+								{ buttons }
+				    	</div>
 				    </div>
 				  </div>
 				</div>
