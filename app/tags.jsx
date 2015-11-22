@@ -183,6 +183,26 @@ export default class Tags extends Component {
 						</TagCard>
 					</div>
 				</div>
+
+				<div>
+					<h1>Pill</h1>
+					<div className='row pill'>
+						<TagCard type='GitHub-style pill' single={ true } height='20px' image='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png'>
+							{ this.makeStyle( require('styles/components/pills/pills.tag.less') ) }
+							<div className='rc-pill'>
+								<a href='http://www.recurse.com' title='Made with love at the Recurse Center'>
+									<div className='l'>
+										<span>made at </span>
+									</div>
+									<div className='r'>
+										<SvgIcon src={ svgLogo }/>
+										<span>Recurse Center</span>
+									</div>
+								</a>
+							</div>
+						</TagCard>
+					</div>
+				</div>
 			</div>
 		)
 	}

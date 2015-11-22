@@ -1,0 +1,45 @@
+@import '../common';
+
+.rc-pill {
+	// common rc-tag mixin
+	.rc-tag;
+
+	// Layout
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+
+	font-size: 11px;
+	cursor: pointer;
+
+	a {
+		color: white;
+		text-shadow: fade(#010101, 30%) 0.75px 0.75px 0px;
+	}
+
+	div {
+		display: inline-block;
+		padding: 2px 5px 2px 5px;
+	}
+
+	.l {
+		background: #555;
+		background: linear-gradient(#555, darken(#555, 5%))
+	}
+
+	.r {
+		background: @green;
+		background: linear-gradient(@green, darken(@green, 5%))
+	}
+
+	i.icon-svg svg {
+		height: 1em;
+		margin-right: 0.33em;
+		margin-bottom: -1px;
+
+		display: inline-block;
+	}
+
+}
