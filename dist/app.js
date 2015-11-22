@@ -20646,7 +20646,7 @@
 	var svgLogo = __webpack_require__(204),
 	    svgLogoStroke = __webpack_require__(205),
 	    svgLogoSeal = __webpack_require__(206),
-	    svgHeart = __webpack_require__(219);
+	    svgHeart = __webpack_require__(207);
 
 	var Tags = (function (_Component) {
 		_inherits(Tags, _Component);
@@ -20779,7 +20779,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Green Ribbon' },
-								this.makeStyle(__webpack_require__(207)),
+								this.makeStyle(__webpack_require__(208)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-left' },
@@ -20803,7 +20803,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Left Light Ribbon' },
-								this.makeStyle(__webpack_require__(208)),
+								this.makeStyle(__webpack_require__(209)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-left' },
@@ -20837,7 +20837,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Right Green Ribbon' },
-								this.makeStyle(__webpack_require__(209)),
+								this.makeStyle(__webpack_require__(210)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-top-right' },
@@ -20861,7 +20861,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Top-Right Light Ribbon' },
-								this.makeStyle(__webpack_require__(210)),
+								this.makeStyle(__webpack_require__(211)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-top-right' },
@@ -20895,7 +20895,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Left Green Ribbon' },
-								this.makeStyle(__webpack_require__(211)),
+								this.makeStyle(__webpack_require__(212)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-left' },
@@ -20919,7 +20919,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Left Light Ribbon' },
-								this.makeStyle(__webpack_require__(212)),
+								this.makeStyle(__webpack_require__(213)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-left' },
@@ -20953,7 +20953,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Right Green Ribbon' },
-								this.makeStyle(__webpack_require__(213)),
+								this.makeStyle(__webpack_require__(214)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-green-bottom-right' },
@@ -20977,7 +20977,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Bottom-Right Light Ribbon' },
-								this.makeStyle(__webpack_require__(214)),
+								this.makeStyle(__webpack_require__(215)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-ribbon-white-bottom-right' },
@@ -21012,7 +21012,7 @@
 						_react2['default'].createElement(
 							_tagCard2['default'],
 							{ type: 'Green Block Badge', height: '59px', image: 'https://cloud.githubusercontent.com/assets/2883345/11322972/9e553260-910b-11e5-8de9-a5bf00c352ef.png' },
-							this.makeStyle(__webpack_require__(215)),
+							this.makeStyle(__webpack_require__(216)),
 							_react2['default'].createElement(
 								'div',
 								{ className: 'rc-badge-green' },
@@ -21045,7 +21045,7 @@
 						_react2['default'].createElement(
 							_tagCard2['default'],
 							{ type: 'Light Block Badge', height: '59px', image: 'https://cloud.githubusercontent.com/assets/2883345/11322974/9e572610-910b-11e5-9775-698cbe868a67.png' },
-							this.makeStyle(__webpack_require__(216)),
+							this.makeStyle(__webpack_require__(217)),
 							_react2['default'].createElement(
 								'div',
 								{ className: 'rc-badge-white' },
@@ -21091,7 +21091,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: 'Recurse Center Seal', single: true, height: '75px', image: 'https://cloud.githubusercontent.com/assets/2883345/11322975/9e575dce-910b-11e5-9f47-1fb1b530a4bd.png' },
-								this.makeStyle(__webpack_require__(217)),
+								this.makeStyle(__webpack_require__(218)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-seal-green' },
@@ -21118,7 +21118,7 @@
 							_react2['default'].createElement(
 								_tagCard2['default'],
 								{ type: '"Made with Love" Text Label', single: true, height: '14px', image: 'https://cloud.githubusercontent.com/assets/2883345/11322973/9e557144-910b-11e5-959a-8fdaaa4a88c5.png' },
-								this.makeStyle(__webpack_require__(218)),
+								this.makeStyle(__webpack_require__(220)),
 								_react2['default'].createElement(
 									'div',
 									{ className: 'rc-text' },
@@ -21465,6 +21465,12 @@
 
 /***/ },
 /* 207 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg viewBox=\"0 0 511.626 511.627\"><g><path d=\"M475.366,71.951c-24.175-23.606-57.575-35.404-100.215-35.404c-11.8,0-23.843,2.046-36.117,6.136 c-12.279,4.093-23.702,9.615-34.256,16.562c-10.568,6.945-19.65,13.467-27.269,19.556c-7.61,6.091-14.845,12.564-21.696,19.414 c-6.854-6.85-14.087-13.323-21.698-19.414c-7.616-6.089-16.702-12.607-27.268-19.556c-10.564-6.95-21.985-12.468-34.261-16.562 c-12.275-4.089-24.316-6.136-36.116-6.136c-42.637,0-76.039,11.801-100.211,35.404C12.087,95.552,0,128.288,0,170.162 c0,12.753,2.24,25.889,6.711,39.398c4.471,13.514,9.566,25.031,15.275,34.546c5.708,9.514,12.181,18.796,19.414,27.837 c7.233,9.042,12.519,15.27,15.846,18.699c3.33,3.422,5.948,5.899,7.851,7.419L243.25,469.937c3.427,3.429,7.614,5.144,12.562,5.144 s9.138-1.715,12.563-5.137l177.87-171.307c43.588-43.583,65.38-86.41,65.38-128.475C511.626,128.288,499.537,95.552,475.366,71.951 z\"></path></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>"
+
+/***/ },
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21478,7 +21484,7 @@
 
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21492,7 +21498,7 @@
 
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21506,7 +21512,7 @@
 
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21520,7 +21526,7 @@
 
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21534,7 +21540,7 @@
 
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21548,7 +21554,7 @@
 
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21562,7 +21568,7 @@
 
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21576,7 +21582,7 @@
 
 
 /***/ },
-/* 215 */
+/* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21590,7 +21596,7 @@
 
 
 /***/ },
-/* 216 */
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21604,7 +21610,7 @@
 
 
 /***/ },
-/* 217 */
+/* 218 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21618,7 +21624,8 @@
 
 
 /***/ },
-/* 218 */
+/* 219 */,
+/* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)();
@@ -21630,12 +21637,6 @@
 
 	// exports
 
-
-/***/ },
-/* 219 */
-/***/ function(module, exports) {
-
-	module.exports = "<svg viewBox=\"0 0 511.626 511.627\"><g><path d=\"M475.366,71.951c-24.175-23.606-57.575-35.404-100.215-35.404c-11.8,0-23.843,2.046-36.117,6.136 c-12.279,4.093-23.702,9.615-34.256,16.562c-10.568,6.945-19.65,13.467-27.269,19.556c-7.61,6.091-14.845,12.564-21.696,19.414 c-6.854-6.85-14.087-13.323-21.698-19.414c-7.616-6.089-16.702-12.607-27.268-19.556c-10.564-6.95-21.985-12.468-34.261-16.562 c-12.275-4.089-24.316-6.136-36.116-6.136c-42.637,0-76.039,11.801-100.211,35.404C12.087,95.552,0,128.288,0,170.162 c0,12.753,2.24,25.889,6.711,39.398c4.471,13.514,9.566,25.031,15.275,34.546c5.708,9.514,12.181,18.796,19.414,27.837 c7.233,9.042,12.519,15.27,15.846,18.699c3.33,3.422,5.948,5.899,7.851,7.419L243.25,469.937c3.427,3.429,7.614,5.144,12.562,5.144 s9.138-1.715,12.563-5.137l177.87-171.307c43.588-43.583,65.38-86.41,65.38-128.475C511.626,128.288,499.537,95.552,475.366,71.951 z\"></path></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>"
 
 /***/ }
 /******/ ]);
